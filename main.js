@@ -1,0 +1,6 @@
+document.querySelector('div.name').innerHTML = '<h3>' + info.name + '</h3><h4 class="pink">Hero</h4>'
+document.querySelector('div.age').innerHTML = '<p>' + info.age + '</p><p class="pink">' + Object.keys(info)[2] + '</p>'
+document.querySelector('div.weight').innerHTML = '<p>' + info.weight + ' kg</p><p class="pink">' + Object.keys(info)[3] + '</p>'
+document.querySelector('div.height').innerHTML = '<p>' + info.height + ' cm</p><p class="pink">' + Object.keys(info)[4] + '</p>'
+document.querySelector('div.description-text').innerHTML = '<p>' + info.skills + '</p>'
+document.querySelector('div.image-container').innerHTML = '<img src=' + info.image + '></img>'
